@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AA13A9A9-18A8-4327-B7A4-3D9214E35CAA}</ProjectGuid>
+    <ProjectGuid>{A0F2EAB7-35CF-46BE-87BE-1F8C0827F29B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WpfApplication1</RootNamespace>
@@ -35,10 +35,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -59,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +70,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -97,45 +100,21 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pool-bird-icon.png" />
+    <Resource Include="ball-icon.png" />
+    <Resource Include="Bull-icon.png" />
+    <Resource Include="wallpaper.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Background.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="pool-leaf-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="D1.png" />
-    <Resource Include="D2.png" />
-    <Resource Include="D3.png" />
-    <Resource Include="D4.png" />
-    <Resource Include="D5.png" />
-    <Resource Include="D6.png" />
-    <Resource Include="D7.png" />
-    <Resource Include="D8.png" />
-    <Resource Include="D9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="bull-icon.png" />
-    <Resource Include="cow-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="1.png" />
-    <Resource Include="2.png" />
-    <Resource Include="3.png" />
-    <Resource Include="4.png" />
-    <Resource Include="5.png" />
-    <Resource Include="6.png" />
-    <Resource Include="7.png" />
-    <Resource Include="8.png" />
-    <Resource Include="9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="pool-ball-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="System-icon.png" />
+    <Resource Include="b.png" />
+    <Content Include="Buzzer.wav" />
+    <Resource Include="Cow-icon.png" />
+    <Resource Include="c.png" />
+    <Content Include="jack_in_the_box.wav" />
+    <Content Include="Jump.wav" />
+    <Content Include="Mario_Jump.wav" />
+    <Resource Include="w1.jpg" />
+    <Resource Include="w4.jpg" />
+    <Content Include="win.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
