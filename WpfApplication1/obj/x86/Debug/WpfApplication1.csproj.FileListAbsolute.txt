@@ -63,9 +63,7 @@ C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x8
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\bin\Debug\WpfApplication1.exe
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\bin\Debug\WpfApplication1.pdb
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\MainWindow.baml
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\Window1.baml
-C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\MainWindow.g.cs
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\Window1.g.cs
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\App.g.cs
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\WpfApplication1_Content.g.cs
@@ -74,3 +72,5 @@ C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x8
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\MainWindow.baml
+C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\MainWindow.g.cs
