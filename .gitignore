@@ -9,8 +9,6 @@
 *.userosscache
 *.sln.docstates
 *.vcxproj.filters
-*.cache
-*.FileListAbsolute.txt
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
