@@ -23,3 +23,5 @@ E:\ \Projects\Cow Bull\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplica
 G:\ \Projects\Cow Bull\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
 E:\ \Projects\Cow Bull\WpfApplication1\WpfApplication1\obj\x86\Debug\App.baml
 E:\ \Projects\Cow Bull\WpfApplication1\WpfApplication1\obj\x86\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow_Bull_Game\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow_Bull_Game\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
