@@ -105,8 +105,8 @@
                                 <DoubleAnimation
                     Storyboard.TargetName="BullImageAnim" 
                     Storyboard.TargetProperty="Y"
-                    From="-10" To="10" Duration="0:0:1" 
-                    AutoReverse="False" RepeatBehavior="Forever"/>
+                    From="-10" To="10" Duration="0:0:2" 
+                    AutoReverse="True" RepeatBehavior="Forever"/>
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger>
@@ -125,8 +125,8 @@
                                     <DoubleAnimation
                                         Storyboard.TargetName="CowImageAnim" 
                     Storyboard.TargetProperty="Y"
-                    From="10" To="-20" Duration="0:0:1" 
-                    AutoReverse="False" RepeatBehavior="Forever" />
+                    From="10" To="-20" Duration="0:0:2" 
+                    AutoReverse="True" RepeatBehavior="Forever" />
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger>
