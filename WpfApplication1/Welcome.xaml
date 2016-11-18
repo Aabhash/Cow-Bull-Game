@@ -1,7 +1,7 @@
 ﻿<Window x:Class="WpfApplication1.Welcome"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Welcome" Height="350" Width="525">
+        Title="Welcome" Height="512" Width="786" ResizeMode="CanResize" WindowStartupLocation="CenterScreen">
  
         <Viewbox Stretch="Fill">
     <Grid Height="350" Width="525">
