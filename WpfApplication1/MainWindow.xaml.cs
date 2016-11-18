@@ -51,7 +51,8 @@ namespace CBGame
                 }
                 Label l = (Label)FindName("label" + i );
                 l.Content = Number[i-1].ToString(); 
-            }  
+            }
+            GuessButton.IsEnabled = false;  
         }
 
         private void Image_ImageFailed(object sender, ExceptionRoutedEventArgs e)
@@ -87,6 +88,7 @@ namespace CBGame
                         Button b = (Button)FindName("Button" + j);
                         b.IsEnabled = false;
                     }
+                    GuessButton.IsEnabled = true;
                 }
             }
         }
@@ -245,6 +247,7 @@ namespace CBGame
             DImage2.Opacity = 0;
             DImage3.Opacity = 0;
             DImage4.Opacity = 0;
+            GuessButton.IsEnabled = false;
         }
 
         private void NewGameButton_Click(object sender, RoutedEventArgs e)
