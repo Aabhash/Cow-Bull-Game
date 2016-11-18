@@ -1,7 +1,7 @@
-﻿<Window x:Class="WpfApplication1.MainWindow"
+﻿<Window x:Class="WpfApplication1.Welcome"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Welcome" Height="350" Width="525">
  
         <Viewbox Stretch="Fill">
     <Grid Height="350" Width="525">
@@ -48,7 +48,7 @@
                                 </EventTrigger>
                                 </Image.Triggers>
                         </Image>
-                        <TextBlock x:Name="playButton" FontFamily="Rockwell" FontSize="14" CacheMode="BitmapCache" Text="PLAY" Foreground="#FF378395">
+                        <TextBlock x:Name="playButton" FontFamily="Rockwell" FontSize="14" Text="PLAY" Foreground="#FF378395">
         <TextBlock.RenderTransform>
             <TranslateTransform x:Name="AnimatedTranslateTransform" X="0" Y="0" />
         </TextBlock.RenderTransform>
