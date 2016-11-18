@@ -36,8 +36,8 @@ C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\o
 C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\Welcome.g.cs
 C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\App.g.cs
 C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
-C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.lref
 C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\Welcome.baml
 C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\WpfApplication1.g.resources
 C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
 C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\ad_fl_000\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\obj\x86\Debug\WpfApplication1_Content.g.cs

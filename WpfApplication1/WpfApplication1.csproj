@@ -144,6 +144,18 @@
   <ItemGroup>
     <Resource Include="System-icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ball-icon.png" />
+    <Resource Include="w1.jpg" />
+    <Resource Include="w4.jpg" />
+    <Resource Include="0.png" />
+    <Resource Include="bull-icon-1.png" />
+    <Content Include="Buzzer.wav" />
+    <Resource Include="cow-icon-1.png" />
+    <Content Include="jack_in_the_box.wav" />
+    <Content Include="Jump.wav" />
+    <Content Include="Mario_Jump.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -8,6 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("system-icon.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("buzzer.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("jack_in_the_box.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("jump.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("mario_jump.wav")]
 
 
