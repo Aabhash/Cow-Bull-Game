@@ -128,7 +128,6 @@ PublishScripts/
 
 !**/packages/build/
 
-#!**/packages/repositories.config
 *.nuget.props
 *.nuget.targets
 
