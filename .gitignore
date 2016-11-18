@@ -6,6 +6,8 @@
 
 *.userprefs
 
+Debug/
+bin/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
