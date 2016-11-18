@@ -76,7 +76,7 @@ namespace WpfApplication1
             {
                 Guessed[loaded-1] = x;
                 Image i = (Image)this.FindName("DImage" + loaded);
-                var uri = new Uri(@"\WpfApplication1;component\" + x + ".png", UriKind.Relative);
+                var uri = new Uri(@"\WpfApplication1;component\Images\" + x + ".png", UriKind.Relative);
                 i.Opacity = 1; 
                 i.Source = new BitmapImage(uri);
                 loaded++;
@@ -84,7 +84,7 @@ namespace WpfApplication1
             else
             {
                 Guessed[3] = x; 
-                var uri = new Uri(@"\WpfApplication1;component\" + x + ".png", UriKind.Relative);
+                var uri = new Uri(@"\WpfApplication1;component\Images\" + x + ".png", UriKind.Relative);
                 DImage4.Opacity = 1; 
                 DImage4.Source = new BitmapImage(uri);
                 

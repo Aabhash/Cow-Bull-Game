@@ -6,7 +6,7 @@
         <Viewbox Stretch="Fill">
     <Grid Height="350" Width="525">
         <Grid.Background>
-            <ImageBrush ImageSource="w1.jpg" RenderOptions.BitmapScalingMode="Fant"/>          
+            <ImageBrush ImageSource="Images/w1.jpg" RenderOptions.BitmapScalingMode="Fant"/>          
         </Grid.Background>
                  <StackPanel>
                     <MediaElement Name="myMediaElement" >
@@ -30,7 +30,7 @@
             <Grid Height="75" Width="54" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10">
               <Button Foreground="#FFD83D3D" Click="Button_Click_1">
                     <StackPanel>
-                        <Image Source="ball-icon.png" RenderOptions.BitmapScalingMode="Fant" Height="32" Width="32">
+                        <Image Source="Images/ball-icon.png" RenderOptions.BitmapScalingMode="Fant" Height="32" Width="32">
                                <Image.RenderTransform>
                             <TranslateTransform x:Name="ImageAnim" X="0" Y="0" />
                             </Image.RenderTransform>
@@ -80,21 +80,21 @@
             <Grid Name="BullRulesGrid" Height="250" Width="300">
                 <TextBlock Name="BullRules"  FontFamily="Rockwell" FontStyle="Oblique" Opacity="0" Height="auto" Width="auto" Foreground="WhiteSmoke" OpacityMask="#CD009300">
                      <TextBlock.Background>
-                         <ImageBrush ImageSource="w4.jpg"/>
+                         <ImageBrush ImageSource="Images/w4.jpg"/>
                          </TextBlock.Background>
                     <TextBlock TextAlignment="Justify" Margin="50,50,0,0">
-                        <Image Source="bull-icon.png " Width="50" Height="50" Margin="70,0,0,0"/> <LineBreak/>
+                        <Image Source="Images/bull-icon.png " Width="50" Height="50" Margin="70,0,0,0"/> <LineBreak/>
                         -CORRECT number <LineBreak/>
                         -CORRECT position <LineBreak/>
                     Eg. 6589 <LineBreak/>
-                    Guessed number-1287-<Image Source="bull-icon.png" Width="20" Height="20"/><LineBreak/>
-                    Guessed number-6482-<Image Source="bull-icon.png" Width="20" Height="20"/><Image Source="bull-icon.png " Width="20" Height="20"/><LineBreak/>
+                    Guessed number-1287-<Image Source="Images/bull-icon.png" Width="20" Height="20"/><LineBreak/>
+                    Guessed number-6482-<Image Source="Images/bull-icon.png" Width="20" Height="20"/><Image Source="Images/bull-icon.png " Width="20" Height="20"/><LineBreak/>
                 </TextBlock>
                     </TextBlock>                
             </Grid>
             <Grid Name="BullImageGrid">
-                
-                <Image Source="Bull-icon-1.png" ImageFailed="Image_ImageFailed" GotMouseCapture="Image_GotMouseCapture" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" Margin="425,15,0,235">
+
+                <Image Source="Images/Bull-icon-1.png" ImageFailed="Image_ImageFailed" GotMouseCapture="Image_GotMouseCapture" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" Margin="425,15,0,235">
                 <Image.RenderTransform>
                     <TranslateTransform x:Name="BullImageAnim" X="0" Y="0" />
                 </Image.RenderTransform>
@@ -114,7 +114,7 @@
                 </Image>
                                 </Grid>
             <Grid Name="CowImageGrid">
-                <Image Source="Cow-icon-1.png" Margin="425,133,0,117" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1">
+                <Image Source="Images/Cow-icon-1.png" Margin="425,133,0,117" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1">
                 <Image.RenderTransform>
                     <TranslateTransform x:Name="CowImageAnim" X="0" Y="0" />
                 </Image.RenderTransform>
@@ -136,15 +136,15 @@
         <Grid Name="CowRulesGrid" Height="250" Width="300">
                 <TextBlock Name="CowRules" Opacity="0" FontFamily="Rockwell" FontStyle="Oblique" Foreground="WhiteSmoke" OpacityMask="#CD009300">
                     <TextBlock.Background>
-                         <ImageBrush ImageSource="w4.jpg"/>
+                         <ImageBrush ImageSource="Images/w4.jpg"/>
                          </TextBlock.Background>
                     <TextBlock TextAlignment="Justify" Margin="50,50,0,0">                   
-                    <Image Source="cow-icon.png " Width="50" Height="50" Margin="70,0,0,0"/> <LineBreak/>
+                    <Image Source="Images/cow-icon.png " Width="50" Height="50" Margin="70,0,0,0"/> <LineBreak/>
                         -CORRECT number <LineBreak/>
                         -INCORRECT position <LineBreak/>
                     Eg. 6589 <LineBreak/>
-                    Guessed number-1362-<Image Source="cow-icon.png " Width="20" Height="20" ImageFailed="Image_ImageFailed_1" /><LineBreak/>
-                    Guessed number-1492-<Image Source="cow-icon.png " Width="20" Height="20"/><Image Source="cow-icon.png " Width="20" Height="20"/><LineBreak/>
+                    Guessed number-1362-<Image Source="Images/cow-icon.png " Width="20" Height="20" ImageFailed="Image_ImageFailed_1" /><LineBreak/>
+                    Guessed number-1492-<Image Source="Images/cow-icon.png " Width="20" Height="20"/><Image Source="Images/cow-icon.png " Width="20" Height="20"/><LineBreak/>
                 </TextBlock> 
                 </TextBlock>
                 

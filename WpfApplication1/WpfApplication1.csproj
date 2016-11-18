@@ -36,8 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>Martin-Berube-Flat-Animal-Cow.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -104,57 +103,58 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pool-bird-icon.png" />
+    <Resource Include="Images\pool-bird-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Background.jpg" />
+    <Resource Include="Images\Background.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pool-leaf-icon.png" />
+    <Resource Include="Images\pool-leaf-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="D1.png" />
-    <Resource Include="D2.png" />
-    <Resource Include="D3.png" />
-    <Resource Include="D4.png" />
-    <Resource Include="D5.png" />
-    <Resource Include="D6.png" />
-    <Resource Include="D7.png" />
-    <Resource Include="D8.png" />
-    <Resource Include="D9.png" />
+    <Resource Include="Images\D1.png" />
+    <Resource Include="Images\D2.png" />
+    <Resource Include="Images\D3.png" />
+    <Resource Include="Images\D4.png" />
+    <Resource Include="Images\D5.png" />
+    <Resource Include="Images\D6.png" />
+    <Resource Include="Images\D7.png" />
+    <Resource Include="Images\D8.png" />
+    <Resource Include="Images\D9.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="bull-icon.png" />
-    <Resource Include="cow-icon.png" />
+    <Resource Include="Images\bull-icon.png" />
+    <Resource Include="Images\cow-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="1.png" />
-    <Resource Include="2.png" />
-    <Resource Include="3.png" />
-    <Resource Include="4.png" />
-    <Resource Include="5.png" />
-    <Resource Include="6.png" />
-    <Resource Include="7.png" />
-    <Resource Include="8.png" />
-    <Resource Include="9.png" />
+    <Resource Include="Images\1.png" />
+    <Resource Include="Images\2.png" />
+    <Resource Include="Images\3.png" />
+    <Resource Include="Images\4.png" />
+    <Resource Include="Images\5.png" />
+    <Resource Include="Images\6.png" />
+    <Resource Include="Images\7.png" />
+    <Resource Include="Images\8.png" />
+    <Resource Include="Images\9.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pool-ball-icon.png" />
+    <Resource Include="Images\pool-ball-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="System-icon.png" />
+    <Resource Include="Images\System-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ball-icon.png" />
-    <Resource Include="w1.jpg" />
-    <Resource Include="w4.jpg" />
-    <Resource Include="0.png" />
-    <Resource Include="bull-icon-1.png" />
-    <Content Include="Buzzer.wav" />
-    <Resource Include="cow-icon-1.png" />
-    <Content Include="jack_in_the_box.wav" />
-    <Content Include="Jump.wav" />
-    <Content Include="Mario_Jump.wav" />
+    <Resource Include="Images\ball-icon.png" />
+    <Resource Include="Images\w1.jpg" />
+    <Resource Include="Images\w4.jpg" />
+    <Resource Include="Images\0.png" />
+    <Resource Include="Images\bull-icon-1.png" />
+    <Resource Include="Martin-Berube-Flat-Animal-Cow.ico" />
+    <Content Include="Sounds\Buzzer.wav" />
+    <Resource Include="Images\cow-icon-1.png" />
+    <Content Include="Sounds\jack_in_the_box.wav" />
+    <Content Include="Sounds\Jump.wav" />
+    <Content Include="Sounds\Mario_Jump.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

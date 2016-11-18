@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("buzzer.wav")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("jack_in_the_box.wav")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("jump.wav")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("mario_jump.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/buzzer.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/jack_in_the_box.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/jump.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/mario_jump.wav")]
 
 

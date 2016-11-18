@@ -5,80 +5,80 @@
     <Viewbox Stretch="Fill">
         <Grid Name="MainGrid" Height="350" Width="525" HorizontalAlignment="Center" TextInput="MainGrid_TextInput">
             <Grid.Background>
-                <ImageBrush ImageSource="Background.jpg"></ImageBrush>
+                <ImageBrush ImageSource="Images/Background.jpg"></ImageBrush>
             </Grid.Background>
             <Grid Name="HistoryGrid" Height="165" Width="225" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,80">
                 <Border BorderBrush="#FF182957" BorderThickness="5" HorizontalAlignment="Left" Height="165" Margin="0,0,0,0" VerticalAlignment="Top" Width="225"/>
 
                 <Label Content="" Height="24" Width="130" HorizontalAlignment="Center" Margin="0,10,20,0" Name="l1" VerticalAlignment="Top" Foreground="White" FontFamily="Franklin Gothic" FontWeight="Bold" FontSize="15" />
-                <Image Name="b11" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,40,0"></Image>
-                <Image Name="b12" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,60,0"></Image>
-                <Image Name="b13" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,80,0"></Image>
-                <Image Name="b14" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,100,0"></Image>
-                <Image Name="c11" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,40,0"></Image>
-                <Image Name="c12" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,60,0"></Image>
-                <Image Name="c13" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,80,0"></Image>
-                <Image Name="c14" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,100,0"></Image>
+                <Image Name="b11" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,40,0"></Image>
+                <Image Name="b12" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,60,0"></Image>
+                <Image Name="b13" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,80,0"></Image>
+                <Image Name="b14" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,100,0"></Image>
+                <Image Name="c11" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,40,0"></Image>
+                <Image Name="c12" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,60,0"></Image>
+                <Image Name="c13" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,80,0"></Image>
+                <Image Name="c14" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,10,100,0"></Image>
 
-                <Image Name="b21" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,40,0"></Image>
-                <Image Name="b22" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,60,0"></Image>
-                <Image Name="b23" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,80,0"></Image>
-                <Image Name="b24" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,100,0"></Image>
-                <Image Name="c21" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,40,0"></Image>
-                <Image Name="c22" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,60,0"></Image>
-                <Image Name="c23" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,80,0"></Image>
-                <Image Name="c24" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,100,0"></Image>
+                <Image Name="b21" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,40,0"></Image>
+                <Image Name="b22" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,60,0"></Image>
+                <Image Name="b23" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,80,0"></Image>
+                <Image Name="b24" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,100,0"></Image>
+                <Image Name="c21" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,40,0"></Image>
+                <Image Name="c22" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,60,0"></Image>
+                <Image Name="c23" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,80,0"></Image>
+                <Image Name="c24" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,35,100,0"></Image>
 
                 <Label Content="" Height="24" Width="130" HorizontalAlignment="Center" Margin="0,35,20,0" Name="l2" VerticalAlignment="Top" Foreground="White" FontFamily="Franklin Gothic" FontWeight="Bold" FontSize="15"/>
 
-                <Image Name="b31" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,40,0"></Image>
-                <Image Name="b32" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,60,0"></Image>
-                <Image Name="b33" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,80,0"></Image>
-                <Image Name="b34" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,100,0"></Image>
-                <Image Name="c31" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,40,0"></Image>
-                <Image Name="c32" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,60,0"></Image>
-                <Image Name="c33" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,80,0"></Image>
-                <Image Name="c34" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,100,0"></Image>
+                <Image Name="b31" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,40,0"></Image>
+                <Image Name="b32" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,60,0"></Image>
+                <Image Name="b33" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,80,0"></Image>
+                <Image Name="b34" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,100,0"></Image>
+                <Image Name="c31" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,40,0"></Image>
+                <Image Name="c32" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,60,0"></Image>
+                <Image Name="c33" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,80,0"></Image>
+                <Image Name="c34" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,60,100,0"></Image>
 
                 <Label Content="" Height="24" Width="130" HorizontalAlignment="Center" Margin="0,60,20,0" Name="l3" VerticalAlignment="Top" Foreground="White" FontFamily="Franklin Gothic" FontWeight="Bold" FontSize="15"/>
                 <Label Content="" Height="24" Width="130" HorizontalAlignment="Center" Margin="0,85,20,0" Name="l4" VerticalAlignment="Top" Foreground="White" FontFamily="Franklin Gothic" FontWeight="Bold" FontSize="15" />
-                <Image Name="b41" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,40,0"></Image>
-                <Image Name="b42" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,60,0"></Image>
-                <Image Name="b43" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,80,0"></Image>
-                <Image Name="b44" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,100,0"></Image>
-                <Image Name="c41" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,40,0"></Image>
-                <Image Name="c42" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,60,0"></Image>
-                <Image Name="c43" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,80,0"></Image>
-                <Image Name="c44" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,100,0"></Image>
+                <Image Name="b41" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,40,0"></Image>
+                <Image Name="b42" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,60,0"></Image>
+                <Image Name="b43" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,80,0"></Image>
+                <Image Name="b44" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,100,0"></Image>
+                <Image Name="c41" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,40,0"></Image>
+                <Image Name="c42" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,60,0"></Image>
+                <Image Name="c43" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,80,0"></Image>
+                <Image Name="c44" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,85,100,0"></Image>
 
                 <Label Content="" Height="24" Width="130" HorizontalAlignment="Center" Margin="0,110,20,0" Name="l5" VerticalAlignment="Top" Foreground="White" FontFamily="Franklin Gothic" FontWeight="Bold" FontSize="15" />
-                <Image Name="b51" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,40,0"></Image>
-                <Image Name="b52" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,60,0"></Image>
-                <Image Name="b53" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,80,0"></Image>
-                <Image Name="b54" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,100,0"></Image>
-                <Image Name="c51" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,40,0"></Image>
-                <Image Name="c52" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,60,0"></Image>
-                <Image Name="c53" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,80,0"></Image>
-                <Image Name="c54" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,100,0"></Image>
+                <Image Name="b51" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,40,0"></Image>
+                <Image Name="b52" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,60,0"></Image>
+                <Image Name="b53" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,80,0"></Image>
+                <Image Name="b54" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,100,0"></Image>
+                <Image Name="c51" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,40,0"></Image>
+                <Image Name="c52" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,60,0"></Image>
+                <Image Name="c53" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,80,0"></Image>
+                <Image Name="c54" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,110,100,0"></Image>
 
 
                 <Label Content="" Height="24" Width="130" HorizontalAlignment="Center" Margin="0,135,20,0" Name="l6" VerticalAlignment="Top" Foreground="White" FontFamily="Franklin Gothic" FontWeight="Bold" FontSize="15"/>
-                <Image Name="b61" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,40,0"></Image>
-                <Image Name="b62" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,60,0"></Image>
-                <Image Name="b63" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,80,0"></Image>
-                <Image Name="b64" Source ="bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,100,0"></Image>
-                <Image Name="c61" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,40,0"></Image>
-                <Image Name="c62" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,60,0"></Image>
-                <Image Name="c63" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,80,0"></Image>
-                <Image Name="c64" Source ="cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,100,0"></Image>
+                <Image Name="b61" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,40,0"></Image>
+                <Image Name="b62" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,60,0"></Image>
+                <Image Name="b63" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,80,0"></Image>
+                <Image Name="b64" Source ="Images/bull-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,100,0"></Image>
+                <Image Name="c61" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,40,0"></Image>
+                <Image Name="c62" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,60,0"></Image>
+                <Image Name="c63" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,80,0"></Image>
+                <Image Name="c64" Source ="Images/cow-icon.png" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0" Margin="0,135,100,0"></Image>
                 
 
             </Grid>
             <Grid Name="NumberGrid" Height="105" Width="225" HorizontalAlignment="Right" VerticalAlignment ="Top" Margin="0,0,5,0">
-                <Image Name="BImage1" Width="54" Height="54" HorizontalAlignment="Left" Source ="System-icon.png" Margin="35,0,0,0" OpacityMask="#FFFBFBFB" Panel.ZIndex="5"></Image>
-                <Image Name="BImage2" Width="54" Height="54" HorizontalAlignment="Left" Source ="System-icon.png" Margin="70,0,0,0" OpacityMask="#FFFBFBFB" Panel.ZIndex="5"></Image>
-                <Image Name="BImage3" Width="54" Height="54" HorizontalAlignment="Left" Source ="System-icon.png" Margin="105,0,0,0" OpacityMask="#FFFBFBFB" Panel.ZIndex="5"></Image>
-                <Image Name="BImage4" Width="54" Height="54" HorizontalAlignment="Left" Source ="System-icon.png" Margin="140,0,0,0" OpacityMask="#FFFBFBFB" Panel.ZIndex="5"></Image>
+                <Image Name="BImage1" Width="54" Height="54" HorizontalAlignment="Left" Source ="Images/System-icon.png" Margin="35,0,0,0" OpacityMask="#FFFBFBFB" Panel.ZIndex="5"></Image>
+                <Image Name="BImage2" Width="54" Height="54" HorizontalAlignment="Left" Source ="Images/System-icon.png" Margin="70,0,0,0" OpacityMask="#FFFBFBFB" Panel.ZIndex="5"></Image>
+                <Image Name="BImage3" Width="54" Height="54" HorizontalAlignment="Left" Source ="Images/System-icon.png" Margin="105,0,0,0" OpacityMask="#FFFBFBFB" Panel.ZIndex="5"></Image>
+                <Image Name="BImage4" Width="54" Height="54" HorizontalAlignment="Left" Source ="Images/System-icon.png" Margin="140,0,0,0" OpacityMask="#FFFBFBFB" Panel.ZIndex="5"></Image>
 
                 <Label Content="1" Height="44" Width="44" HorizontalAlignment="Left" Margin="45,40,0,0" Name="label1" VerticalAlignment="Top" Foreground="White" FontFamily="Franklin Gothic" FontWeight="Bold" FontSize="22" />
                 <Label Content="2" Height="44" Width="44" HorizontalAlignment="Left" Margin="80,40,0,0" Name="label2" VerticalAlignment="Top" Foreground="White" FontFamily="Franklin Gothic" FontWeight="Bold" FontSize="22"/>
@@ -88,31 +88,31 @@
 
             <Grid Name="NumbersGrid" Height="245" VerticalAlignment="Bottom" Width="300" HorizontalAlignment="Left" Margin="0,0,0,0">
                 <Button Height="60" HorizontalAlignment="Left" Margin="10,10,0,0" Name="Button1" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button1_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D1.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" OpacityMask="Black" Stretch="Fill"/>
+                    <Image Source="Images/D1.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" OpacityMask="Black" Stretch="Fill"/>
                 </Button>
                 <Button Height="60" HorizontalAlignment="Left" Margin="120,10,0,0" Name="Button2" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button2_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D2.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
+                    <Image Source="Images/D2.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
                 </Button>
                 <Button Height="60" HorizontalAlignment="Left" Margin="230,10,0,0" Name="Button3" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button3_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D3.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
+                    <Image Source="Images/D3.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
                 </Button>
                 <Button Height="60" HorizontalAlignment="Left" Margin="10,90,0,0" Name="Button4" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button4_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D4.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
+                    <Image Source="Images/D4.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
                 </Button>
                 <Button Height="60" HorizontalAlignment="Left" Margin="120,90,0,0" Name="Button5" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button5_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D5.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
+                    <Image Source="Images/D5.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
                 </Button>
                 <Button Height="60" HorizontalAlignment="Left" Margin="230,90,0,0" Name="Button6" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button6_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D6.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
+                    <Image Source="Images/D6.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
                 </Button>
                 <Button Height="60" HorizontalAlignment="Left" Margin="10,170,0,0" Name="Button7" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button7_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D7.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
+                    <Image Source="Images/D7.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
                 </Button>
                 <Button Height="60" HorizontalAlignment="Left" Margin="120,170,0,0" Name="Button8" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button8_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D8.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
+                    <Image Source="Images/D8.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
                 </Button>
                 <Button Height="60" HorizontalAlignment="Left" Margin="230,170,0,0" Name="Button9" VerticalAlignment="Top" Width="54" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#00F7F7F7" Padding="0" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Background="#FFF1ECEC" BorderThickness="0" Opacity="1" Click="Button9_Click" Template="{DynamicResource ButtonControlTemplate1}" BorderBrush="#FFFD2B2B">
-                    <Image Source="D9.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
+                    <Image Source="Images/D9.png" Width="54" Height="60" ImageFailed="Image_ImageFailed" HorizontalAlignment="Center" Margin="0,0,0,0" Stretch="Fill"/>
                 </Button>
             </Grid>
             <Grid Name="DisplayGrid" Height="105" VerticalAlignment="Top" Width="300" HorizontalAlignment="Left" Margin="0,0,0,0">
@@ -126,7 +126,7 @@
             <Grid Name="GuessButtonGrid" Height="75" Width="225" VerticalAlignment ="Bottom" HorizontalAlignment="Right" Margin="0,0,5,0">
                 <Button Height="75" HorizontalAlignment="Left" Margin="30,0,0,0" Name="GuessButton" VerticalAlignment="Top" Width="54" BorderBrush="#FF6D9EF3" BorderThickness="1" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#FF505821" Padding="1" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Click="GuessButton_Click">
                     <StackPanel>
-                        <Image Source="pool-bird-icon.png" Width="50" Height="50" HorizontalAlignment="Left"/>
+                        <Image Source="Images/pool-bird-icon.png" Width="50" Height="50" HorizontalAlignment="Left"/>
                         <TextBlock VerticalAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Center">
                     GUESS
                         </TextBlock>
@@ -136,7 +136,7 @@
 
                 <Button Height="75" HorizontalAlignment="Right" Margin="0,0,30,0" Name="NewGameButton" VerticalAlignment="Center" Width="54" BorderBrush="#FF6D9EF3" BorderThickness="1" FontFamily="Segoe UI Symbol" FontSize="12" FontStretch="ExtraExpanded" FontStyle="Normal" FontWeight="ExtraBold" Foreground="#FF505821" Padding="1" RenderTransformOrigin="0,0" HorizontalContentAlignment="Right" Click="NewGameButton_Click">
                     <StackPanel>
-                        <Image Source="pool-leaf-icon.png" Width="50" Height="50" HorizontalAlignment="Left"/>
+                        <Image Source="Images/pool-leaf-icon.png" Width="50" Height="50" HorizontalAlignment="Left"/>
                         <TextBlock VerticalAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Center">
                     RESET
                         </TextBlock>
