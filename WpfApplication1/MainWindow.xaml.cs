@@ -51,7 +51,8 @@ namespace CBGame
                 }
                 Label l = (Label)FindName("label" + i );
                 l.Content = Number[i-1].ToString(); 
-            }  
+            }
+            GuessButton.IsEnabled = false;  
         }
 
         private void Image_ImageFailed(object sender, ExceptionRoutedEventArgs e)
@@ -72,7 +73,7 @@ namespace CBGame
             {
                 labelDC.Content = "";
             }
-            if (loaded < 4)
+            if (loaded <= 5)
             {
                 Guessed[loaded-1] = x;
                 Image i = (Image)this.FindName("DImage" + loaded);
@@ -80,18 +81,14 @@ namespace CBGame
                 i.Opacity = 1; 
                 i.Source = new BitmapImage(uri);
                 loaded++;
-            }
-            else
-            {
-                Guessed[3] = x; 
-                var uri = new Uri(@"\WpfApplication1;component\Images\" + x + ".png", UriKind.Relative);
-                DImage4.Opacity = 1; 
-                DImage4.Source = new BitmapImage(uri);
-                
-                for (int j = 1; j <= 9; j++)
+                if (loaded == 5)
                 {
-                    Button b = (Button)FindName("Button" + j);
-                    b.IsEnabled = false;
+                    for (int j = 1; j <= 9; j++)
+                    {
+                        Button b = (Button)FindName("Button" + j);
+                        b.IsEnabled = false;
+                    }
+                    GuessButton.IsEnabled = true;
                 }
             }
         }
@@ -152,13 +149,14 @@ namespace CBGame
             Button9.IsEnabled = false; 
         }
 
+        //Guess Button Computation
         private void GuessButton_Click(object sender, RoutedEventArgs e)
         {
             if (history <= 6)
             {
                 int cow = 0;
                 int bull = 0;
-                if (loaded == 4)
+                if (loaded == 5)
                 {
                     for (int i = 0; i < 4; i++)
                     {
@@ -249,6 +247,7 @@ namespace CBGame
             DImage2.Opacity = 0;
             DImage3.Opacity = 0;
             DImage4.Opacity = 0;
+            GuessButton.IsEnabled = false;
         }
 
         private void NewGameButton_Click(object sender, RoutedEventArgs e)
