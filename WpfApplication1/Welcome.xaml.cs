@@ -22,7 +22,9 @@ namespace CBGame
         public Welcome()
         {
             InitializeComponent();
-           // PlaySound();            
+
+           PlaySound(); 
+          
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -82,8 +84,11 @@ namespace CBGame
         }
         private void PlaySound()
         {
-            //this.MainWindowSound.Position = new TimeSpan(0, 0, 0, 5);
-            //this.MainWindowSound.Play();
+            var uri = new Uri(@"C:\Users\user\Documents\Git\My_Repositories\Cow-Bull-Game\WpfApplication1\Sounds\Jump.wav", UriKind.RelativeOrAbsolute);
+            var player = new MediaPlayer();
+
+            player.Open(uri);
+            player.Play();
         }
 
     }
